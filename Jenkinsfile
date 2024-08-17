@@ -14,6 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
+                cd /directorio
                 echo 'Deploying....'
             }
         }
